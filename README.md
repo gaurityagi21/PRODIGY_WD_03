@@ -9,14 +9,6 @@ This is a simple stopwatch web application built using HTML, CSS, and JavaScript
 - Reset: Reset the stopwatch timer to zero.
 - Lap: Record and display lap times.
 
-## Demo
-
-You can view a live demo of the Stopwatch Web Application [here](#).
-
-## Screenshots
-
-![Stopwatch Web Application](/screenshots/stopwatch-demo.png)
-
 ## Getting Started
 
 To get a local copy up and running, follow these steps:
