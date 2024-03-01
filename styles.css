@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+    background-color: #000; /* Black background color for the entire page */
+    color: #fff; /* Text color */
+  }
+  
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensures the container takes up the full viewport height */
+    background-color: #000; /* Black background color for the container */
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff; /* White background color for the cells */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    color: #000; /* Black color for player "X" and "O" */
+    border-radius: 10px; /* Curvy edges */
+  }
+  
+  .cell:hover {
+    background-color: #ddd; /* Change color on hover */
+  }
+  
+  .status {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .restart-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .restart-btn:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  
